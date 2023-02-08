@@ -1,0 +1,5 @@
+GET https://fullstack2023-puhelinluettelo-backend.onrender.com/api/persons
+
+//GET https://fullstack2023-puhelinluettelo-backend.onrender.com/api/persons/4
+
+//DELETE  https://fullstack2023-puhelinluettelo-backend.onrender.com/api/persons/4
