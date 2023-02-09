@@ -1,9 +1,10 @@
 
 require('dotenv').config()
 const express = require('express')
+const cors = require('cors')
 const Person = require('./models/person')
 const morgan = require('morgan')
-const cors = require('cors')
+
 
 const app = express()
 app.use(express.static('build'))
@@ -46,7 +47,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/info', (req, res) => {
-
   res.send(
     `<div>Phonebook has info of ${persons.length} people</div>
     <div>${new Date().toString()}</div>`
