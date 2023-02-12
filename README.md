@@ -2,4 +2,4 @@
 
 Fullstack-kurssin osion 3 palautusrepositorio
 
-[Puhelinluettelon backend](https://fullstack2023-puhelinluettelo-backend.onrender.com/)
+[Sovellus](https://fullstack2023-puhelinluettelo-backend.onrender.com/)
